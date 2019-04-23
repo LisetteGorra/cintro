@@ -6,6 +6,13 @@ void printSum(void);
 void printSums(int, int);
 int squared(int);
 
+//isLeapYear
+//return bool
+//accepts int
+//every 4 years
+//not divisible by 100
+//however is if divisible by 400
+
 int main(void)
 {
     //print format with new line symbol
