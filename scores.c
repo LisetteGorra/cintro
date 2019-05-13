@@ -1,15 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-void chart(int score)
-{
-    for (int i = 0; i < score; i++)
-    {
-        printf("#");
-    }
-    printf("\n");
-
-}
+void chart(int score);
 
 int main(void)
 {
@@ -32,6 +24,17 @@ int main(void)
         printf("#");
     }
     printf("\n");
+}
+
+void chart(int score)
+{
+    for (int i = 0; i < score; i++)
+    {
+        printf("#");
+    }
+    printf("\n");
+
+}
 
 
 
@@ -72,4 +75,4 @@ int main(void)
     //     printf("#");
     // }
     // printf("\n");
-}
+// }
